@@ -7,6 +7,7 @@ public class Ejecutor {
 
     public static void main(String[] args) {
 
+        String variable = "sin usar";
         Grafo g = new Grafo(true);
 
         g.agregarArista("2", "0");
