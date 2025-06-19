@@ -19,7 +19,7 @@ class ABB{
 public class Arboles {
 
     public static void main(String[] args) {
-        
+        int a = 9;
     }
     
 }
