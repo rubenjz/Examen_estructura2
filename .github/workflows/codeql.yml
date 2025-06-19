@@ -10,7 +10,12 @@
 # supported CodeQL languages.
 #
 name: "CodeQL Advanced"
-
+uses: github/codeql-action/init@v3
+  with:
+    languages: ${{ matrix.language }}
+    build-mode: ${{ matrix.build-mode }}
+    queries: +security-and-quality
+    
 on:
   push:
     branches: [ "main" ]
